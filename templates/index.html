@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<ul>
+		{% for f in flist %}
+			<li><a href="{{ url_for('article', file_name=f) }}">{{ f }}</a></li>
+		{% endfor %}
+	</ul>
+{% endblock %}
