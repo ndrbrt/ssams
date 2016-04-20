@@ -7,13 +7,13 @@ Ssams (Super Simple Articles Management System) is a very (veeery) minimalistic 
 
 Be sure you have flask and markdown installed
 
-  ```pip install flask```
+  ```$ pip install flask```
   
-  ```pip install markdown```
+  ```$ pip install markdown```
 
 Download ssams, cd into ssams directory and
 
-```python app.py```
+```$ python app.py```
 
 ### Usage
 
